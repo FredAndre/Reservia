@@ -3,14 +3,14 @@
 	<head>
 		<meta charset="utf-8"/>
 		<link rel="stylesheet" href="style.css"/>
-		
-		<link href = "https://fonts.googleapis.com/css2? family = Raleway & display = swap" rel = "stylesheet">
+		<link
+		<link href = "https://fonts.googleapis.com/css2?family=Raleway&display=swap"rel="stylesheet">
 		<title>Reservia</title>
 	</head>
 	<body>
 		<header>
 			<div id="entete"><!--création d'un conteneur pour l'entête-->
-				<div class="logo"><a href="logo"><img src="images/logo/Reservia@3x.png"alt="logo du site" id="logo"/><!--première box-->
+				<div class="logo"><a href="logo"><img src="images/logo/Reservia@3x.png"alt="logo du site" id="logo"/></a><!--première box-->
 				</div> 
 				<div id="menu"><!--deuxième box avec lien pour création d'ancre sur la même page-->
 					<div class="hebergements"><a href="#hebergements">Hébergements</a></div>
@@ -24,9 +24,9 @@
 				<h2>Trouvez votre hébergement pour des vacances de rêve</h2>
 				<p>En plein centre ville ou en pleine nature.</p>
 				<form method="post" action="traitement.php">
-				<label>Ville</label> <!-- a changer par image indicateur de lieu--> : <input type="search" name="ville" id="Ville" placeholder="Ex: Marseille"/>
+				<label>Ville</label> <!-- a changer par image indicateur de lieu--> : <input type="search" name="ville" id="Ville" placeholder="Ex: Marseille" class="rechercheville" />
 
-				<input type="submit" name="Rechercher"/><!--trouver comment changer "envoyer" par "rechercher"-->
+				<input type="submit" name="Rechercher" value="Rechercher" class="rechercher" /><!--trouver comment changer "envoyer" par "rechercher"-->
 				</form>
 				<h4>Filtres</h4><!-- trouvez image pour chaque filtre-->
 				<div class="icones">

@@ -23,6 +23,30 @@ body
 	
 	text-align: justify;
 }
+#menu a:hover /* barre bleu au survol*/
+{
+	border-top: 2px solid blue;
+	padding-top: 17px;
+}
+#menu a
+{
+	padding-left: 10px;
+	padding-right: 10px; 
+	text-decoration: none;
+}
+.rechercher
+{
+	background-color: blue; /* a modifier*/
+	border-radius: 0px 10px 10px 0px;
+	height: 30px;
+	color: white;
+	position: relative;
+	right: 4px;
+}
+.rechercheville
+{
+	height: 30px;
+} 
 .icones
 {
 	display: flex;
@@ -306,13 +330,4 @@ h2
 	font-size: 12px;
 }
 
-#menu a:hover /* barre bleu au survol*/
-{
-	border-top: 2px solid blue;
-	padding-top: 17px;
-}
-#menu a
-{
-	padding-left: 10px;
-	padding-right: 10px; 
-}
+
