@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="style.css"/>
+		
+		<link href = "https://fonts.googleapis.com/css2? family = Raleway & display = swap" rel = "stylesheet">
+		<title>Reservia</title>
+	</head>
+	<body>
+		<header>
+			<div id="entete"><!--création d'un conteneur pour l'entête-->
+				<div class="logo"><a href="logo"><img src="images/logo/Reservia@3x.png"alt="logo du site" id="logo"/><!--première box-->
+				</div> 
+				<div id="menu"><!--deuxième box avec lien pour création d'ancre sur la même page-->
+					<div class="hebergements"><a href="#hebergements">Hébergements</a></div>
+					<div class="activites"><a href="#activites">Activités</a></div>
+					<div class="sinscrire"><a href="#sinscrire">S'inscrire</a></div>
+				</div>
+			</div>	
+		</header>
+		<section>
+			<div id="titre"> <!-- conteneur titre pour formater les différents élément du titre-->
+				<h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+				<p>En plein centre ville ou en pleine nature.</p>
+				<form method="post" action="traitement.php">
+				<label>Ville</label> <!-- a changer par image indicateur de lieu--> : <input type="search" name="ville" id="Ville" placeholder="Ex: Marseille"/>
+
+				<input type="submit" name="Rechercher"/><!--trouver comment changer "envoyer" par "rechercher"-->
+				</form>
+				<h4>Filtres</h4><!-- trouvez image pour chaque filtre-->
+				<div class="icones">
+				<i class="fas fa-money" aria-hidden="true"></i>
+				</div>
+				<p>(img) Plus de 500 logements sont disponibles dans cette ville</p><!--trouvez image pour i d'info-->
+			</div>
+			<div id="hebergement"><!-- conteneur h2+6 photo marseille-->
+				<div class="titrehebergements">Hébergements à Marseille</div>
+				<div id="blocelement1"><!--bloc regroupant la photo+ nom de l'hôtel+tarif+etoiles-->
+					<div class="element1"><img src="images/hebergements/small/Element 1.jpg" class="element1"/></div>
+					<div class="element1-1"><h4>Auberge la Cannebière</h4>
+					<p>Nuit à partir de <div class="tarif">25€</div></p>
+					</div>
+				</div>
+				<div id="blocelement2">
+					<div class="element2"><img src="images/hebergements/small/Element 2.jpg" class="element2"/></div>
+					<div class="element2-1"><h4>Hôtel du Port</h4>
+					<p>Nuit à partir de <div class="tarif">52€</div></p>
+				    </div>
+				</div>
+				<div id="blocelement3">	
+					<div class="element3"><img src="images/hebergements/small/Element 3.jpg" class="element3"/></div>
+					<div class="element3-1"><h4>Hôtel les Mouettes</h4>
+					<p>Nuit à partir de <div class="tarif">76€</div></p>
+					</div>
+				</div>	
+				<div id="blocelement4">
+					<div class="element4"><img src="images/hebergements/small/Element 4.jpg" class="element4"/></div>
+					<div class="element4-1"><h4>Hôtel de la mer</h4>
+					<p>Nuit à partir de <div class="tarif">45€</p>
+					</div>
+				</div>
+				<div id="blocelement5">		
+					<div class="element5"><img src="images/hebergements/small/Element 5.jpg" class="element5"/></div>
+					<div class="element5-1"><h4>Auberge le panier</h4>
+					<p>Nuit à partir de <div class="tarif">23€</p>
+					</div>
+				</div>
+				<div id="blocelement6">		
+					<div class="element6"><img src="images/hebergements/small/Element 6.jpg" class="element6"/></div>
+					<div class="element6-1"><h4>Hôtel chez Amina</h4>
+					<p>Nuit à partir de <div class="tarif">96€</p>
+					</div>
+				</div>		
+			</div>	
+		</section>
+
+		
+	</body>
+</html>

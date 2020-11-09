@@ -1,0 +1,318 @@
+body
+{
+	font-family: 'Raleway', sans-serif; /* police de l'ensemble du body.....echec*/
+}
+#entete
+{
+	display: flex; 
+}
+#logo
+{
+	width: 100px; /* largeur du logo dans le header*/
+	height: 50px; /* hauteur du logo dans le header*/
+}
+#menu
+{
+	display: flex;
+	justify-content: space-around;
+	font-size: 15px; /* taille du texte*/
+	width: 100px; /* largeur du bloc*/
+	height: 50px; /* hauteur du bloc*/
+	padding: 12px; /* marge interieur du bloc*/
+	margin-left: 900px; /* marge extérieur gauche du blox*/
+	
+	text-align: justify;
+}
+.icones
+{
+	display: flex;
+	margin: auto;
+	justify-content: space-around;
+}
+.hebergements
+{
+	
+	margin-right: 40px;/* marge extérieur droite entre les blocs hebergement et activités */
+}
+.activites
+{
+	
+	margin-right: 40px; /* marge extérieur droite entre les blocs activités et s'inscrire */
+}
+h2
+{
+	font-size: 25px bold; /* taille et gras du titre "trouvez votre hébergement....."*/
+}
+#titre p /* couleur du sous titre en gris */
+{
+	color: grey;
+}
+#hebergement
+{
+	background-color: #F2F2F2; 
+	width: 60%; /*largeur du conteneur*/
+	height: 650px; /* hauteur du conteneur*/
+	border-radius: 10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;	
+}
+.titrehebergements
+{
+	
+	width: 40%;
+	height:10px;
+	margin-right: 400px;
+	margin-left: 50px;
+	margin-top: 30px;
+	margin-bottom:25px;
+	font-size: 20px;
+
+}
+#blocelement1
+{
+	display: flex;
+	width: 200px;
+	height: 250px;
+	background-color: white;
+	border-radius: 10px;
+	margin-left: 50px;
+	margin-right: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	flex-direction: column;
+}
+.element1
+{
+	width: 200px;
+	height: 100px;
+	border-radius: 10px;
+}
+.element1-1
+{
+	width: 195px;
+	height: 100px;
+	border-radius: 10px;
+	background-color: white;
+	margin-left: 10px;
+}
+.element1-1 h4
+{
+	font-size: 15px;
+}
+.element1-1 p
+{
+	font-size: 12px;
+}
+.tarif
+{
+	font-size: 12px;
+}
+#blocelement2
+{
+	display: flex;
+	width: 200px;
+	height: 250px;
+	background-color: white;
+	border-radius: 10px;
+	margin-right: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	flex-direction: column;
+}
+.element2
+{
+	width: 200px;
+	height: 100px;
+	border-radius: 10px;
+}
+.element2-1
+{
+	width: 195px;
+	height: 100px;
+	border-radius: 10px;
+	background-color: white;
+	margin-left: 10px;
+}
+.element2-1 h4
+{
+	font-size: 15px;
+}
+.element2-1 p
+{
+	font-size: 12px;
+}
+.tarif
+{
+	font-size: 12px;
+}
+#blocelement3
+{
+	display: flex;
+	width: 200px;
+	height: 250px;
+	background-color: white;
+	border-radius: 10px;
+	margin-right: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	flex-direction: column;
+}
+.element3
+{
+	width: 200px;
+	height: 100px;
+	border-radius: 10px;
+}
+.element3-1
+{
+	width: 195px;
+	height: 100px;
+	border-radius: 10px;
+	background-color: white;
+	margin-left: 10px;
+}
+.element3-1 h4
+{
+	font-size: 15px;
+}
+.element3-1 p
+{
+	font-size: 12px;
+}
+.tarif
+{
+	font-size: 12px;
+}
+#blocelement4
+{
+	display: flex;
+	width: 200px;
+	height: 250px;
+	background-color: white;
+	border-radius: 10px;
+	margin-left: 50px;
+	margin-right: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	flex-direction: column;
+}
+.element4
+{
+	width: 200px;
+	height: 100px;
+	border-radius: 10px;
+}
+.element4-1
+{
+	width: 195px;
+	height: 100px;
+	border-radius: 10px;
+	background-color: white;
+	margin-left: 10px;
+}
+.element4-1 h4
+{
+	font-size: 15px;
+}
+.element4-1 p
+{
+	font-size: 12px;
+}
+.tarif
+{
+	font-size: 12px;
+}
+#blocelement5
+{
+	display: flex;
+	width: 200px;
+	height: 250px;
+	background-color: white;
+	border-radius: 10px;
+	margin-right: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	flex-direction: column;
+}
+.element5
+{
+	width: 200px;
+	height: 100px;
+	border-radius: 10px;
+}
+.element5-1
+{
+	width: 195px;
+	height: 100px;
+	border-radius: 10px;
+	background-color: white;
+	margin-left: 10px;
+}
+.element5-1 h4
+{
+	font-size: 15px;
+}
+.element5-1 p
+{
+	font-size: 12px;
+}
+.tarif
+{
+	font-size: 12px;
+}
+#blocelement6
+{
+	display: flex;
+	width: 200px;
+	height: 250px;
+	background-color: white;
+	border-radius: 10px;
+	margin-right: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	flex-direction: column;
+}
+.element6
+{
+	width: 200px;
+	height: 100px;
+	border-radius: 10px;
+}
+.element6-1
+{
+	width: 195px;
+	height: 100px;
+	border-radius: 10px;
+	background-color: white;
+	margin-left: 10px;
+}
+.element6-1 h4
+{
+	font-size: 15px;
+}
+.element6-1 p
+{
+	font-size: 12px;
+}
+.tarif
+{
+	font-size: 12px;
+}
+
+#menu a:hover /* barre bleu au survol*/
+{
+	border-top: 2px solid blue;
+	padding-top: 17px;
+}
+#menu a
+{
+	padding-left: 10px;
+	padding-right: 10px; 
+}
