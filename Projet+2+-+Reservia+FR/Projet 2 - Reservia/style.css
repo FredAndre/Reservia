@@ -83,11 +83,11 @@ h2
 	padding-top: 5px;
 	flex-direction: column;
 }
-.element1
+.element1 /* bloc image */
 {
 	width: 200px;
 	height: 100px;
-	border-radius: 10px;
+	border-radius: 10px 10px 0px 0px;
 }
 .element1-1
 {
@@ -126,7 +126,7 @@ h2
 {
 	width: 200px;
 	height: 100px;
-	border-radius: 10px;
+	border-radius: 10px 10px 0px 0px;
 }
 .element2-1
 {
@@ -165,7 +165,7 @@ h2
 {
 	width: 200px;
 	height: 100px;
-	border-radius: 10px;
+	border-radius: 10px 10px 0px 0px;
 }
 .element3-1
 {
@@ -205,7 +205,7 @@ h2
 {
 	width: 200px;
 	height: 100px;
-	border-radius: 10px;
+	border-radius: 10px 10px 0px 0px;
 }
 .element4-1
 {
@@ -244,7 +244,7 @@ h2
 {
 	width: 200px;
 	height: 100px;
-	border-radius: 10px;
+	border-radius: 10px 10px 0px 0px;
 }
 .element5-1
 {
@@ -283,7 +283,7 @@ h2
 {
 	width: 200px;
 	height: 100px;
-	border-radius: 10px;
+	border-radius: 10px 10px 0px 0px;
 }
 .element6-1
 {
