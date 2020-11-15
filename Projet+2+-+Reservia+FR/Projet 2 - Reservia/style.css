@@ -34,6 +34,14 @@ body
 	padding-right: 10px; 
 	text-decoration: none;
 }
+#titre label
+{
+	display: flex;
+	flex-direction: column;
+	height: 30px;
+	width: 50px;
+	background-color: grey;
+}
 .rechercher
 {
 	background-color: blue; /* a modifier*/
@@ -53,6 +61,7 @@ body
 	margin: auto;
 	justify-content: space-around;
 }
+
 .hebergements
 {
 	
@@ -71,33 +80,50 @@ h2
 {
 	color: grey;
 }
+#conteneurgeneral
+{
+	display: flex;
+	flex-direction: row;
+	
+}
 #hebergement
 {
 	background-color: #F2F2F2; 
 	width: 60%; /*largeur du conteneur*/
-	height: 650px; /* hauteur du conteneur*/
+	height:750px; /* hauteur du conteneur*/
 	border-radius: 10px;
-	display: flex;
+	display:flex;
 	flex-direction: row;
-	flex-wrap: wrap;	
+	flex-wrap: wrap;
+	margin-bottom: 50px;	
+}
+#hebergement span
+{
+	font-weight: bold;
+}
+#hebergement i
+{
+	color: blue;
 }
 .titrehebergements
 {
-	
-	width: 40%;
-	height:10px;
-	margin-right: 400px;
+	display: flex;
+	background-color: green;
+	width: 900px;
+	height:40px;
+	margin-right: 40px;
 	margin-left: 50px;
-	margin-top: 30px;
-	margin-bottom:25px;
+	margin-top: 20px;
+	margin-bottom:0px;
+	padding-top: 0px;
 	font-size: 20px;
-
+	
 }
 #blocelement1
 {
-	display: flex;
+	
 	width: 200px;
-	height: 250px;
+	height: 220px;
 	background-color: white;
 	border-radius: 10px;
 	margin-left: 50px;
@@ -135,9 +161,9 @@ h2
 }
 #blocelement2
 {
-	display: flex;
+	
 	width: 200px;
-	height: 250px;
+	height: 220px;
 	background-color: white;
 	border-radius: 10px;
 	margin-right: 20px;
@@ -174,9 +200,9 @@ h2
 }
 #blocelement3
 {
-	display: flex;
+	
 	width: 200px;
-	height: 250px;
+	height: 220px;
 	background-color: white;
 	border-radius: 10px;
 	margin-right: 20px;
@@ -213,9 +239,9 @@ h2
 }
 #blocelement4
 {
-	display: flex;
+	
 	width: 200px;
-	height: 250px;
+	height: 220px;
 	background-color: white;
 	border-radius: 10px;
 	margin-left: 50px;
@@ -253,9 +279,9 @@ h2
 }
 #blocelement5
 {
-	display: flex;
+	
 	width: 200px;
-	height: 250px;
+	height: 220px;
 	background-color: white;
 	border-radius: 10px;
 	margin-right: 20px;
@@ -292,9 +318,9 @@ h2
 }
 #blocelement6
 {
-	display: flex;
+	
 	width: 200px;
-	height: 250px;
+	height: 220px;
 	background-color: white;
 	border-radius: 10px;
 	margin-right: 20px;
@@ -330,4 +356,195 @@ h2
 	font-size: 12px;
 }
 
+#lespluspopulaires
+{
+	background-color: #F2F2F2; 
+	width: 35%; /*largeur du conteneur*/
+	height: 720px; /* hauteur du conteneur*/
+	border-radius: 10px;
+	flex-direction: row;
+	flex-wrap: wrap;	
+	margin-left: 50px;
+}
+#lespluspopulaires span
+{
+	font-weight: bold;
+}
+#lespluspopulaires i
+{
+	color: blue;
+}
+.titrepopulaire
+{
+	background-color: green;
+	width: 380px;
+	height:40px;
+	margin-right: 40px;
+	margin-left: 50px;
+	margin-top: 5px;
+	margin-bottom:0px;
+	padding-top: 20px;
+	font-size: 20px;
+	
+}
+#blocelement7
+{
+	display: flex;
+	width: 350px;
+	height: 155px;
+	background-color: white;
+	border-radius: 10px;
+	margin-top: 60px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	flex-direction: row;
+}
+.element7
+{
+	
+	height: 150px;
+	width: 150px;
+	border-radius: 10px 0px 0px 10px;
+}
+.element7-1
+{
 
+	width: 150px;
+	height: 150px;
+	border-radius: 10px;
+	background-color: white;
+	margin-left: 10px;
+	margin-right: 40px;
+	padding-left: 15px;
+}
+.element7-1 h4
+{
+	font-size: 15px;
+}
+.element7-1 p
+{
+	font-size: 12px;
+}
+.tarif
+{
+	font-size: 12px;
+}
+#blocelement8
+{
+	display: flex;
+	width: 350px;
+	height: 155px;
+	background-color: white;
+	border-radius: 10px;
+	margin-top: 30px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-left: 5px;
+	padding-right: 0px;
+	padding-top: 5px;
+	flex-direction: row;
+}
+.element8
+{
+	
+	height: 150px;
+	width: 150px;
+	border-radius: 10px 0px 0px 10px;
+}
+.element8-1
+{
+
+	width: 150px;
+	height: 150px;
+	border-radius: 10px;
+	background-color: white;
+	margin-left: 10px;
+	margin-right: 40px;
+	padding-left: 15px;
+}
+.element8-1 h4
+{
+	font-size: 15px;
+}
+.element8-1 p
+{
+	font-size: 12px;
+}
+#blocelement9
+{
+	display: flex;
+	width: 350px;
+	height: 155px;
+	background-color: white;
+	border-radius: 10px;
+	margin-top: 30px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-left: 5px;
+	padding-right: 0px;
+	padding-top: 5px;
+	flex-direction: row;
+}
+.element9
+{
+	
+	height: 150px;
+	width: 150px;
+	border-radius: 10px 0px 0px 10px;
+}
+.element9-1
+{
+
+	width: 150px;
+	height: 150px;
+	border-radius: 10px;
+	background-color: white;
+	margin-left: 10px;
+	margin-right: 40px;
+	padding-left: 15px;
+}
+.element9-1 h4
+{
+	font-size: 15px;
+}
+.element9-1 p
+{
+	font-size: 12px;
+}
+#activiamarseille
+{
+	background-color: green; 
+	width: 1250px; /*largeur du conteneur*/
+	height:600px; /* hauteur du conteneur*/
+	border-radius: 10px;
+	flex-direction: row;
+	flex-wrap: wrap;	
+}
+#blocelement10
+{
+	display: flex;
+	width: 300px;
+	height: 530px;
+	background-color: white;
+	border-radius: 30px / 20px;	
+	flex-direction: column;
+	border:3px #F2F2F2 solid;
+	box-shadow: 5px 5px 5px #F2F2F2;
+}
+.element10
+{
+	height: 480px;
+	width: 300px;
+	border-radius: 30px / 20px;
+}
+.element10-1
+{
+	width: 280px;
+	height: 40px;
+	border-radius: 0px 0px 10px 10px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
