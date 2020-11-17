@@ -98,11 +98,11 @@ h2
 {
 	background-color: #F2F2F2; 
 	width: 60%; /*largeur du conteneur*/
-	height:750px; /* hauteur du conteneur*/
+	height:700px; /* hauteur du conteneur*/
 	border-radius: 10px;
 	display:flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+
+	flex-direction: column;
 	margin-bottom: 50px;	
 }
 #hebergement span
@@ -116,18 +116,34 @@ h2
 .titrehebergements
 {
 	display: flex;
-	
-	width: 900px;
+	width: 500px;
 	height:40px;
 	margin-right: 40px;
 	margin-left: 50px;
-	margin-top: 20px;
-	margin-bottom:0px;
-	padding-top: 0px;
+	padding-top: 50px;
+	padding-bottom: 10px;
 	font-size: 20px;
 	
 }
-#blocelement1
+#ensemblebloc
+{
+	display: flex;
+	flex-direction: column;
+	padding-top: 5px;
+	
+}
+#ensemblebloc123
+{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 50px;
+}
+#ensemblebloc456
+{
+	display: flex;
+	flex-direction: row;
+}
+.blocelement1
 {
 	
 	width: 200px;
@@ -136,9 +152,10 @@ h2
 	border-radius: 10px;
 	margin-left: 50px;
 	margin-right: 20px;
+	padding-top: 5px;
 	padding-left: 5px;
 	padding-right: 5px;
-	padding-top: 5px;
+	
 	flex-direction: column;
 }
 .element1 /* bloc image */
@@ -154,6 +171,7 @@ h2
 	border-radius: 10px;
 	background-color: white;
 	margin-left: 10px;
+	
 }
 .element1-1 h4
 {
@@ -167,7 +185,7 @@ h2
 {
 	font-size: 12px;
 }
-#blocelement2
+.blocelement2
 {
 	
 	width: 200px;
@@ -175,9 +193,10 @@ h2
 	background-color: white;
 	border-radius: 10px;
 	margin-right: 20px;
+	padding-top: 5px;
 	padding-left: 5px;
 	padding-right: 5px;
-	padding-top: 5px;
+	
 	flex-direction: column;
 }
 .element2
@@ -206,7 +225,7 @@ h2
 {
 	font-size: 12px;
 }
-#blocelement3
+.blocelement3
 {
 	
 	width: 200px;
@@ -245,7 +264,7 @@ h2
 {
 	font-size: 12px;
 }
-#blocelement4
+.blocelement4
 {
 	
 	width: 200px;
@@ -285,7 +304,7 @@ h2
 {
 	font-size: 12px;
 }
-#blocelement5
+.blocelement5
 {
 	
 	width: 200px;
@@ -324,7 +343,7 @@ h2
 {
 	font-size: 12px;
 }
-#blocelement6
+.blocelement6
 {
 	
 	width: 200px;
@@ -363,6 +382,12 @@ h2
 {
 	font-size: 12px;
 }
+.afficheplus
+{
+	display: flex;
+	padding-left: 50px;
+	padding-top: 50px;
+}
 
 #lespluspopulaires
 {
@@ -389,9 +414,8 @@ h2
 	height:40px;
 	margin-right: 40px;
 	margin-left: 50px;
-	margin-top: 5px;
-	margin-bottom:0px;
-	padding-top: 20px;
+	padding-top: 50px;
+	padding-bottom: 10px;
 	font-size: 20px;
 	
 }
@@ -402,7 +426,7 @@ h2
 	height: 155px;
 	background-color: white;
 	border-radius: 10px;
-	margin-top: 60px;
+	
 	margin-left: 50px;
 	margin-right: 50px;
 	padding-left: 5px;
@@ -530,6 +554,13 @@ h2
 	height:600px; /* hauteur du conteneur*/
 	border-radius: 10px;
 }
+.titreactivites
+{
+	display: flex;
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom:20px; 
+}
 #toutactivites
 {
 	display: flex;
@@ -537,8 +568,6 @@ h2
 	width: 1320px;
 	height: 540px;
 	flex-direction: row;
-	
-	
 }
 #blocelement10
 {
@@ -715,13 +744,13 @@ h2
 #pied 
 {
 	background-color: #F2F2F2;
-	width:1250px;
+	width:1350px;
 	height: 250px;
 	display: flex;
 	flex-direction: row;
 	padding-left: 30px;
 	padding-top: 30px;
-	
+	margin-top: 50px;
 	
 }
 .apropos
