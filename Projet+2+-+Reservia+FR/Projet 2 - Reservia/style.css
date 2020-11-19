@@ -40,14 +40,24 @@ section
 {
 	margin-left: 40px;
 }
-#titre label
+#titre form
 {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	height: 30px;
-	width: 50px;
-	background-color: grey;
-	
+	width: 60px;
+	background-color: #F2F2F2;
+	border-radius: 10px 0px 0px 10px;
+}
+#titre i
+{
+	display: flex;
+	height:30px;
+	width: 12px; 
+	padding-top: 7px;
+	padding-left: 15px;
+	padding-right: 10px;
+	border-radius: 10px 0px 0px 10px;
 }
 .rechercher
 {
@@ -63,11 +73,64 @@ section
 {
 	height: 30px;
 } 
-.icones
+#filtres
 {
 	display: flex;
-	margin-left: 40px;
-	justify-content: space-around;
+	height: 60px;
+	width: 1250px;
+	border: 3px black solid;
+		
+}
+#filtres i
+{
+	display: flex;
+	
+
+}
+.filtre
+{
+	display: flex;
+	margin-top: 20px;
+	margin-right: 30px;
+	
+}
+.economique
+{
+	display: flex;
+	width: 250px;
+	height: 30px;
+	border:2px blue solid;
+	margin-right: 30px;
+	margin-left: 20px;
+	margin-top: 15px;
+	
+	
+}
+.economique i
+{
+	border: 2px blue solid;
+	border-radius: 100px;
+	width: 30px;
+	height: 30px;
+	display: flex;
+	
+
+	
+}
+.familial
+{
+	display: flex;
+	margin-left: 30px;
+}
+.romantique
+{
+	display: flex;
+	margin-right: 30px;
+}
+.animaux
+{
+	display: flex;
+	margin-right: 30px;
 }
 
 .hebergements
