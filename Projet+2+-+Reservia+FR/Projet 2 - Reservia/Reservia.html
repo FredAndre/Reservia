@@ -24,7 +24,7 @@
 				<h2>Trouvez votre hébergement pour des vacances de rêve</h2>
 				<p>En plein centre ville ou en pleine nature.</p>
 				<form method="post" action="traitement.php">
-				<label><i class="fas fa-map-marker-alt"></i></label><input type="search" name="ville" id="Ville" placeholder="Ex: Marseille" class="rechercheville" />
+				<label><i class="fas fa-map-marker-alt"></i></label><input type="search" name="ville" id="Ville" placeholder=" Marseille, France" class="rechercheville" />
 
 				<input type="submit" name="Rechercher" value="Rechercher" class="rechercher" /><!--trouver comment changer "envoyer" par "rechercher"-->
 				</form>
@@ -36,71 +36,83 @@
 				<div class="romantique"><i class="fas fa-heart"></i>Romantique</div>
 				<div class="animaux"><i class="fas fa-dog"></i>Animaux autorisés</div>
 			</div>
-				<p>(img) Plus de 500 logements sont disponibles dans cette ville</p><!--trouvez image pour i d'info-->
-			
+			<div class="info">
+				<i class="fas fa-info"></i><p> Plus de 500 logements sont disponibles dans cette ville</p><!--trouvez image pour i d'info-->
+			</div>
 			<div id="conteneurgeneral">
 				<div id="hebergement"><!-- conteneur h2+6 photo marseille-->
 					<div class="titrehebergements"><span>Hébergements à Marseille</span></div>
 					<div id="ensemblebloc">
-						<div id="ensemblebloc123">
-							<div class="blocelement1"><!--bloc regroupant la photo+ nom de l'hôtel+tarif+etoiles-->
-								<div class="element1"><img src="images/hebergements/small/Element 1.jpg" class="element1"/></div>
-								<div class="element1-1"><h4><span>Auberge la Cannebière</span></h4>
-								<p>Nuit à partir de <span>25€</span><br />
-								<br />
-								<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
-								</p>
+						<div id="ensemblebloc1"><!--bloc regroupant les 1er, 2eme et 3eme hébergements-->
+							<a href="aubergelacannebiere.html">
+								<div class="blocaubergelacannebiere"><!--bloc regroupant la photo+ nom de l'hôtel+tarif+etoiles auberge la cannebiere-->
+									<div class="aubergeLaCannebiere"><img src="images/hebergements/medium/Auberge la Cannebière.jpg" class="aubergeLaCannebiere"/></div>
+									<div class="tarifCannebiere"><h4><span>Auberge la Cannebière</span></h4>
+									<p>Nuit à partir de <span>25€</span><br />
+									<br />
+				 					<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+									</p>
+									</div>
 								</div>
-							</div>
-							<div class="blocelement2">
-								<div class="element2"><img src="images/hebergements/small/Element 2.jpg" class="element2"/></div>
-								<div class="element2-1"><h4>Hôtel du Port</h4>
-								<p>Nuit à partir de <span>52€</span><br />
-								<br />
-								<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>	
-								</p>
-				    			</div>
-							</div>
-							<div class="blocelement3">	
-								<div class="element3"><img src="images/hebergements/small/Element 3.jpg" class="element3"/></div>
-								<div class="element3-1"><h4>Hôtel les Mouettes</h4>
-								<p>Nuit à partir de <span>76€</span><br />
-								<br />
-								<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
-								</p>
+							</a>
+							<a href="hotelduport.html">
+								<div class="blochotelduport">
+									<div class="hotelduPort"><img src="images/hebergements/medium/Hôtel du Port.jpg" class="hotelduPort"/></div>
+									<div class="tarifPort"><h4>Hôtel du Port</h4>
+									<p>Nuit à partir de 52<span>€</span><br />
+									<br />
+									<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>	
+									</p>
+				    				</div>
 								</div>
-							</div>
+							</a>
+							<a href="hotellesmouettes.html">
+								<div class="blochotellesmouettes">	
+									<div class="hotellesMouettes"><img src="images/hebergements/medium/Hôtel les Mouettes.jpg" class="hotellesMouettes"/></div>
+									<div class="tariflesmouettes"><h4>Hôtel les Mouettes</h4>
+									<p>Nuit à partir de 76<span>€</span><br />
+									<br />
+									<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+									</p>
+									</div>
+								</div>
+							</a>
 						</div>
-						<div id="ensemblebloc456">		
-							<div class="blocelement4">
-								<div class="element4"><img src="images/hebergements/small/Element 4.jpg" class="element4"/></div>
-								<div class="element4-1"><h4>Hôtel de la mer</h4>
-								<p>Nuit à partir de <span>45€</span><br />
-								<br />
-								<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>	
-								</p>
+						<div id="ensemblebloc2"><!--bloc regroupant les 4eme, 5eme et 6eme hébergements-->
+							<a href="hoteldelamer.html">		
+								<div class="blochoteldelamer">
+									<div class="hoteldelaMer"><img src="images/hebergements/medium/Hôtel de la mer.jpg" class="hoteldelaMer"/></div>
+									<div class="tariflamer"><h4>Hôtel de la mer</h4>
+									<p>Nuit à partir de 45<span>€</span><br />
+									<br />
+									<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>	
+									</p>
+									</div>
 								</div>
-							</div>
-							<div class="blocelement5">		
-								<div class="element5"><img src="images/hebergements/small/Element 5.jpg" class="element5"/></div>
-								<div class="element5-1"><h4>Auberge le panier</h4>
-								<p>Nuit à partir de <span>23€</span><br />
-								<br />
-								<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
-								</p>
+							</a>
+							<a href="aubergelepanier.html">
+								<div class="blocaubergelepanier">		
+									<div class="aubergelePanier"><img src="images/hebergements/medium/Auberge le Panier.jpg" class="aubergelePanier"/></div>
+									<div class="tariflepanier"><h4>Auberge le panier</h4>
+									<p>Nuit à partir de <span>23€</span><br />
+									<br />
+									<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+									</p>
+									</div>
 								</div>
+							</a>
+							<a href="hotelchezamina.html">
+								<div class="blochotelchezamina">		
+									<div class="hotelchezAmina"><img src="images/hebergements/medium/Hôtel chez Amina.jpg" class="hotelchezAmina"/></div>
+									<div class="tarifamina"><h4>Hôtel chez Amina</h4>
+									<p>Nuit à partir de 96<span>€</span><br />
+									<br />
+									<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>	
 
-							</div>
-							<div class="blocelement6">		
-								<div class="element6"><img src="images/hebergements/small/Element 6.jpg" class="element6"/></div>
-								<div class="element6-1"><h4>Hôtel chez Amina</h4>
-								<p>Nuit à partir de <span>96€</span><br />
-								<br />
-								<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>	
-
-								</p>
+									</p>
+									</div>
 								</div>
-							</div>
+							</a>
 						</div>			
 					</div>	
 					<div class="afficheplus">
@@ -108,72 +120,90 @@
 					</div>
 				</div>	
 				<div id="lespluspopulaires">
-					<div class="titrepopulaire"><span>Les plus populaires</span><!--rajouter icine bourse--></div>
-					<div id="blocelement7">
-						<div class="element7"><img src="images/hebergements/small/Element 7.jpg" class="element7"/></div>
-						<div class="element7-1"><h4>Hôtel Le soleil du matin</h4>
-							<p>Nuit à partir de <span>128€</span><br />
-							<br />
-							<br />
-							<br />
-							<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>	
-						</p>
-						</div>
-					</div>	
-					<div id="blocelement8">
-						<div class="element8"><img src="images/hebergements/small/Element 8.jpg" class="element8"/></div>
-						<div class="element8-1"><h4>Au coeur de l'eau Chambres d'hôtes</h4>
-							<p>Nuit à partir de <span>71€</span><br />
-							<br />
-							<br />
-							<br />
-							<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+					<div class="titrepopulaire"><span>Les plus populaires</span><i class="fas fa-chart-line"></i></div>
+					<a href="hotellesoleildumatin.html">
+						<div id="blochotellesoleildumatin">
+							<div class="hotelLesoleildumatin"><img src="images/hebergements/small/Hôtel Le soleil du matin.jpg" class="hotelLesoleildumatin"/></div>
+							<div class="tariflesoleil"><h4>Hôtel Le soleil du matin</h4>
+								<p>Nuit à partir de 128<span>€</span><br />
+								<br />
+								<br />
+								<br />
+								<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>	
 							</p>
+							</div>
 						</div>
-					</div>
-					<div id="blocelement9">
-						<div class="element9"><img src="images/hebergements/small/Element 9.jpg" class="element9"/></div>
-						<div class="element9-1"><h4>Hôtel Tout bleu et Blanc</h4>
-							<p>Nuit à partir de <span>68€</span><br />
-							<br />
-							<br />
-							<br />
-							<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
-							</p>
+					</a>
+					<a href="aucoeurdeleau">	
+						<div id="blocaucoeurdeleau">
+							<div class="auCoeurdeleau"><img src="images/hebergements/small/Au coeur de l'eau.jpg" class="auCoeurdeleau"/></div>
+							<div class="tarifaucoeur"><h4>Au coeur de l'eau Chambres d'hôtes</h4>
+								<p>Nuit à partir de 71<span>€</span><br />
+								<br />
+								<br />
+								<br />
+								<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+								</p>
+							</div>
 						</div>
-					</div>	
+					</a>
+					<a href="hoteltoutbleuetblanc.html">
+						<div id="blochoteltoutbleuetblanc">
+							<div class="hoteltoutbleuetBlanc"><img src="images/hebergements/small/Hôtel Tout bleu et Blanc.jpg" class="hoteltoutbleuetBlanc"/></div>
+							<div class="tariftoutbleu"><h4>Hôtel Tout bleu et Blanc</h4>
+								<p>Nuit à partir de 68<span>€</span><br />
+								<br />
+								<br />
+								<br />
+								<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+								</p>
+							</div>
+						</div>
+					</a>	
 				</div>
 			</div>	
 				<div id="activiamarseille">
 					<div class="titreactivites">Activités à Marseille</div>
 					<div id="toutactivites"><!--Pour regrouper l'ensemble des photos et noms des lieux des activités dans un seul conteneur pour mise en forme colonne et row-->
-						<div id="blocelement10">
-							<div class="element10"><img src="images/activites/small/Element 10.jpg" class="element10"/></div>
-							<div class="element10-1"><h4>Vieux port</h4></div>	
+						<a href="vieuxport.html">
+							<div id="blocvieuxport">
+								<div class="vieuxPort"><img src="images/activites/small/Vieux port.jpg" class="vieuxPort"/></div>
+								<div class="nomvieuxport"><h4>Vieux port</h4></div>	
+							</div>
+						</a>	
+						<div id="bloc1"><!--Regroupant fort de pomegues et iles du frioul-->
+						<a href="fortdepomegues.html">	
+							<div id="blocfortdepomegues">
+								<div class="fortdePomegues"><img src="images/activites/small/Fort de Pomègues.jpg" class="fortdePomegues"/></div>
+								<div class="nomfortdepomegues"><h4>Fort de Pomègues</h4></div>
+							</div>
+						</a>
+						<a href="iledufrioul.html">	
+							<div id="blociledufrioul">	
+								<div class="ileduFrioul"><img src="images/activites/small/Îles du Frioul.jpg" class="ileduFrioul"/></div>
+								<div class="nomiledufrioul"><h4>Îles du Frioul</h4></div>
+							</div>
+						</a>	
 						</div>	
-						<div id="blocelement11et12">
-							<div id="blocelement11">
-								<div class="element11"><img src="images/activites/small/Element 11.jpg" class="element11"/></div>
-								<div class="element11-1"><h4>Fort de Pomègues</h4></div>
+						<a href="parcnationaldescalanques.html">
+							<div id="blocparcnationaldescalanques">
+								<div class="parcCalanques"><img src="images/activites/small/Parc National des Calanques.jpg" class="parcCalanques"/></div>
+								<div class="nomcalanques"><h4>Parc National des Calanques</h4></div>
 							</div>
-							<div id="blocelement12">	
-								<div class="element12"><img src="images/activites/small/Element 12.jpg" class="element12"/></div>
-								<div class="element12-1"><h4>Îles du Frioul</h4></div>
+						</a>		
+						<div id="bloc2"><!--Regroupant notre dame et longchamp-->
+						<a href="notredamedelagarde.html">	
+							<div id="blocnotredame">
+								<div class="notreDame"><img src="images/activites/small/Notre Dame de la Garde.jpg" class="notreDame"/></div>
+								<div class="nomnotredame"><h4>Notre-Dame-de-la-Garde</h4></div>
 							</div>
-						</div>	
-						<div id="blocelement13">
-							<div class="element13"><img src="images/activites/small/Element 13.jpg" class="element13"/></div>
-							<div class="element13-1"><h4>Parc National des Calanques</h4></div>
-						</div>	
-						<div id="blocelement14et15">
-							<div id="blocelement14">
-								<div class="element14"><img src="images/activites/small/Element 14.jpg" class="element14"/></div>
-								<div class="element14-1"><h4>Notre-Dame-de-la-Garde</h4></div>
+						</a>
+						<a href="parclongchamp.html">	
+							<div id="blocparclongchamp">	
+								<div class="parcLongchamp"><img src="images/activites/small/Parc de Longchamp.jpg" class="parcLongchamp"/></div>
+								<div class="nomparclongchamp"><h4>Parc Longchamp</h4></div>
 							</div>
-							<div id="blocelement15">	
-								<div class="element15"><img src="images/activites/small/Element 15.jpg" class="element15"/></div>
-								<div class="element15-1"><h4>Parc Longchamp</h4></div>
-							</div>
+						</a>	
 						</div>	
 					</div>	
 				</div>	
