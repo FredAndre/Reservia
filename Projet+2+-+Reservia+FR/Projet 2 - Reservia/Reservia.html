@@ -26,8 +26,14 @@
 				<p>En plein centre ville ou en pleine nature.</p>
 				<form method="post" action="traitement.php">
 				<label><i class="fas fa-map-marker-alt"></i></label><input type="search" name="ville" id="Ville" placeholder=" Marseille, France" class="rechercheville" />
-
-				<input type="submit" name="Rechercher" value="Rechercher" class="rechercher" /><!--trouver comment changer "envoyer" par "rechercher"-->
+				<div class="iconeMax">
+				<input type="submit" name="Rechercher"  value="Rechercher" class="rechercher" />
+				</div>
+				<div class="iconeMini">
+				<button type="submit" class="rechercher">
+					<i class="fas fa-search"></i>
+				</button>
+				</div>
 				</form>
 			</div>	
 			<div id="filtres">
@@ -93,6 +99,7 @@
 							</a>
 							<a href="aubergelepanier.html">
 								<div class="blocaubergelepanier">		
+				
 									<div class="aubergelePanier"><img src="images/hebergements/medium/Auberge le Panier.jpg" class="aubergelePanier"/></div>
 									<div class="tariflepanier"><h4>Auberge le panier</h4>
 									<p>Nuit à partir de <span>23€</span><br />
