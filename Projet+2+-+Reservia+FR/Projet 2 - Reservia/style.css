@@ -17,7 +17,8 @@ html body
 #menu
 {
 	display: flex;
-	margin-left: 740px;
+	margin-left: auto;
+	margin-right: 10px;
 	font-size: 15px; /* taille du texte*/
 	width: auto; /* largeur du bloc*/
 	height: 50px; /* hauteur du bloc*/
@@ -35,7 +36,7 @@ html body
 	padding-right: 30px; 
 	text-decoration: none;
 }
-.sinscrire
+.sInscrire
 {
 	font-weight: bold;
 }
@@ -75,7 +76,7 @@ section
 	position: relative;
 	right: 4px;	
 }
-.rechercheville
+.rechercheVille
 {
 	height: 35px;
 	font-weight: bold;
@@ -266,11 +267,10 @@ h2
 {
 	color: grey;
 }
-#conteneurgeneral
+#conteneurGeneral
 {
 	display: flex;
-	width: auto;
-	
+	width: auto;	
 }
 #hebergement
 {
@@ -286,7 +286,7 @@ h2
 {
 	font-weight: bold;
 }
-.titrehebergements
+.titreHebergements
 {
 	display: flex;
 	width: auto;
@@ -298,26 +298,29 @@ h2
 	font-size: 20px;
 	
 }
-#ensemblebloc
+#ensembleBloc
 {
 	display: flex;
 	flex-direction: column;
 	padding-top: 5px;
 	width: auto;
 }
-#ensemblebloc1
+#ensembleBloc1
 {
 	display: flex;
 	flex-direction: row;
 	margin-bottom: 50px;
 	width: auto;
 }
-
-.blocaubergelacannebiere
+.etoiles
 {
-	
+	font-size: 12px;
 	width: auto;
-	height: 220px;
+}
+.blocAubergeLaCannebiere
+{
+	width: auto;
+	height: 210px;
 	background-color: white;
 	border-radius: 10px;
 	margin-left: 50px;
@@ -327,37 +330,33 @@ h2
 	padding-right: 0px;
 	flex-direction: column;
 }
-.aubergeLaCannebiere /* bloc image */
+.photoLaCannebiere /* bloc image */
 {
-	width: 200px;
+	width: 100%;
 	height: 100px;
 	border-radius: 10px 10px 0px 0px;
 	object-fit: cover;
+	margin-right: 5px;
 }
-.tarifCannebiere
+.tarifHebergement
 {
-	width: 195px;
-	height: 100px;
+	width: auto;
+	height: auto;
 	border-radius: 10px;
-	background-color: white;
 	margin-left: 10px;
 }
-.tarifCannebiere h4
+.tarifHebergement h4
 {
 	font-size: 15px;
 }
-.tarifCannebiere p
+.tarifHebergement p
 {
 	font-size: 12px;
 }
-.tarif
-{
-	font-size: 12px;
-}
-.blochotelduport
+.blocHotelDuPort
 {
 	width: auto;
-	height: 220px;
+	height: 210px;
 	background-color: white;
 	border-radius: 10px;
 	margin-right: 20px;
@@ -366,37 +365,19 @@ h2
 	padding-right: 0px;
 	flex-direction: column;
 }
-.hotelduPort
+.photoDuPort
 {
-	width: 200px;
+	width: 100%;
 	height: 100px;
 	border-radius: 10px 10px 0px 0px;
 	object-fit: cover;
+	margin-right: 5px;
 }
-.tarifPort
-{
-	width: 195px;
-	height: 100px;
-	border-radius: 10px;
-	background-color: white;
-	margin-left: 10px;
-}
-.tarifPort h4
-{
-	font-size: 15px;
-}
-.tarifPort p
-{
-	font-size: 12px;
-}
-.tarif
-{
-	font-size: 12px;
-}
-.blochotellesmouettes
+
+.blocHotelLesMouettes
 {	
 	width: auto;
-	height: 220px;
+	height: 210px;
 	background-color: white;
 	border-radius: 10px;
 	margin-right: 20px;
@@ -405,43 +386,23 @@ h2
 	padding-top: 5px;
 	flex-direction: column;
 }
-.hotellesMouettes
+.photoLesMouettes
 {
-	width: 200px;
+	width: 100%;
 	height: 100px;
 	border-radius: 10px 10px 0px 0px;
 	object-fit: cover;
+	margin-right: 5px;
 }
-.tariflesmouettes
-{
-	width: 195px;
-	height: 100px;
-	border-radius: 10px;
-	background-color: white;
-	margin-left: 10px;
-}
-.tariflesmouettes h4
-{
-	font-size: 15px;
-}
-.tariflesmouettes p
-{
-	font-size: 12px;
-}
-.tarif
-{
-	font-size: 12px;
-}
-#ensemblebloc2
+#ensembleBloc2
 {
 	display: flex;
 	width: auto;
 }
-.blochoteldelamer
+.blocHotelDeLaMer
 {
-	
 	width: auto;
-	height: 220px;
+	height: 210px;
 	background-color: white;
 	border-radius: 10px;
 	margin-left: 50px;
@@ -451,38 +412,18 @@ h2
 	padding-top: 5px;
 	flex-direction: column;
 }
-.hoteldelaMer
+.photoDeLaMer
 {
-	width: 200px;
+	width: 100%;
 	height: 100px;
 	border-radius: 10px 10px 0px 0px;
 	object-fit: cover;
+	margin-right: 5px;
 }
-.tariflamer
+.blocAubergeLePanier
 {
-	width: 195px;
-	height: 100px;
-	border-radius: 10px;
-	background-color: white;
-	margin-left: 10px;
-}
-.tariflamer h4
-{
-	font-size: 15px;
-}
-.tariflamer p
-{
-	font-size: 12px;
-}
-.tarif
-{
-	font-size: 12px;
-}
-.blocaubergelepanier
-{
-	
 	width: auto;
-	height: 220px;
+	height: 210px;
 	background-color: white;
 	border-radius: 10px;
 	margin-right: 20px;
@@ -491,38 +432,18 @@ h2
 	padding-top: 5px;
 	flex-direction: column;
 }
-.aubergelePanier
+.photoLePanier
 {
-	width: 200px;
+	width: 100%;
 	height: 100px;
 	border-radius: 10px 10px 0px 0px;
 	object-fit: cover;
+	margin-right: 5px;
 }
-.tariflepanier
+.blocHotelChezAmina
 {
-	width: 195px;
-	height: 100px;
-	border-radius: 10px;
-	background-color: white;
-	margin-left: 10px;
-}
-.tariflepanier h4
-{
-	font-size: 15px;
-}
-.tariflepanier p
-{
-	font-size: 12px;
-}
-.tarif
-{
-	font-size: 12px;
-}
-.blochotelchezamina
-{
-	
 	width: auto;
-	height: 220px;
+	height: 210px;
 	background-color: white;
 	border-radius: 10px;
 	margin-right: 20px;
@@ -531,56 +452,41 @@ h2
 	padding-top: 5px;
 	flex-direction: column;
 }
-.hotelchezAmina
+.photoChezAmina
 {
-	width: 200px;
+	width: 100%;
 	height: 100px;
 	border-radius: 10px 10px 0px 0px;
 	object-fit: cover;
+	margin-right: 5px;
 }
-.tarifamina
+.affichePlus
 {
-	width: 195px;
-	height: 100px;
-	border-radius: 10px;
-	background-color: white;
-	margin-left: 10px;
-}
-.tarifamina h4
-{
-	font-size: 15px;
-}
-.tarifamina p
-{
-	font-size: 12px;
-}
-.tarif
-{
-	font-size: 12px;
-}
-.afficheplus
-{
+	width: auto;
+	height: 40px;
 	display: flex;
-	padding-left: 50px;
-	padding-top: 50px;
+	margin-top: 30px;
+	margin-left: 50px;
 }
-
-#lespluspopulaires
+#lesPlusPopulaires
 {
 	background-color: #F2F2F2; 
 	width: auto; /*largeur du conteneur*/
-	height: 720px; /* hauteur du conteneur*/
+	height: 655px; /* hauteur du conteneur*/
 	border-radius: 10px;
 	flex-direction: row;
 	flex-wrap: wrap;	
 	margin-left: 50px;
 }
-#lespluspopulaires span
+#lesPlusPopulaires span
 {
 	font-weight: bold;
 }
-
-.titrepopulaire
+#lesPlusPopulaires .etoiles
+{	
+	margin-top: 20px;
+}
+.titrePopulaire
 {
 	display: flex;
 	width: auto;
@@ -592,12 +498,11 @@ h2
 	font-size: 20px;
 	justify-content: space-between;
 }
-
-#blochotellesoleildumatin
+#blocHotelLeSoleilDuMatin
 {
 	display: flex;
-	width: 335px;
-	height: 155px;
+	width: auto;
+	height: 140px;
 	background-color: white;
 	border-radius: 10px;
 	margin-top: 10px;
@@ -608,43 +513,37 @@ h2
 	padding-top: 5px;
 	flex-direction: row;
 }
-.hotelLesoleildumatin
+.photoLeSoleilDuMatin
 {
-	
-	height: 150px;
-	width: 150px;
+	height: 135px;
+	width: 140px;
 	border-radius: 10px 0px 0px 10px;
 	object-fit: cover;
 }
-.tariflesoleil
+.tarifPopulaire
 {
-
-	width: 150px;
-	height: 150px;
+	width: 160px;
+	height: 135px;
 	border-radius: 10px;
-	background-color: white;
 	margin-left: 10px;
 	margin-right: 40px;
 	padding-left: 15px;
+	padding-right: 0px;
+	flex-wrap: wrap-reverse;
 }
-
-.tariflesoleil h4
+.tarifPopulaire h4
 {
 	font-size: 15px;
 }
-.tariflesoleil p
+.tarifPopulaire p
 {
 	font-size: 12px;
 }
-.tarif
-{
-	font-size: 12px;
-}
-#blocaucoeurdeleau
+#blocAuCoeurDeLEau
 {
 	display: flex;
-	width: 350px;
-	height: 155px;
+	width: auto;
+	height: 140px;
 	background-color: white;
 	border-radius: 10px;
 	margin-top: 30px;
@@ -655,38 +554,18 @@ h2
 	padding-top: 5px;
 	flex-direction: row;
 }
-.auCoeurdeleau
+.photoAuCoeurDeLEau
 {
-	height: 150px;
-	width: 150px;
+	height: 135px;
+	width: 140px;
 	border-radius: 10px 0px 0px 10px;
 	object-fit: cover;
 }
-.tarifaucoeur
-{
-
-	width: 150px;
-	height: 150px;
-	border-radius: 10px;
-	background-color: white;
-	margin-left: 10px;
-	margin-right: 40px;
-	padding-left: 15px;
-}
-
-.tarifaucoeur h4
-{
-	font-size: 15px;
-}
-.tarifaucoeur p
-{
-	font-size: 12px;
-}
-#blochoteltoutbleuetblanc
+#blocHotelToutBleuEtBlanc
 {
 	display: flex;
-	width: 350px;
-	height: 155px;
+	width: auto;
+	height: 140px;
 	background-color: white;
 	border-radius: 10px;
 	margin-top: 30px;
@@ -697,57 +576,34 @@ h2
 	padding-top: 5px;
 	flex-direction: row;
 }
-.hoteltoutbleuetBlanc
+.photoToutBleuEtBlanc
 {
-	
-	height: 150px;
-	width: 150px;
+	height: 135px;
+	width: 140px;
 	border-radius: 10px 0px 0px 10px;
 	object-fit: cover;
 }
-.tariftoutbleu
+#activiteAMarseille
 {
-
-	width: 150px;
-	height: 150px;
-	border-radius: 10px;
-	background-color: white;
-	margin-left: 10px;
-	margin-right: 40px;
-	padding-left: 15px;
-}
-.tariftoutbleu h4
-{
-	font-size: 15px;
-}
-.tariftoutbleu p
-{
-	font-size: 12px;
-}
-#activiamarseille
-{
-
-	
 	width: 95%; /*largeur du conteneur*/
 	height:600px; /* hauteur du conteneur*/
 	border-radius: 10px;
 }
-.titreactivites
+.titreActivites
 {
 	display: flex;
 	font-size: 20px;
 	font-weight: bold;
 	padding-bottom:20px; 
 }
-#toutactivites
+#toutActivites
 {
 	display: flex;
-
 	width: 100%;
 	height: 540px;
 	flex-direction: row;
 }
-#blocvieuxport
+#blocVieuxPort
 {
 	display: flex;
 	width: 280px;
@@ -759,14 +615,14 @@ h2
 	box-shadow: 5px 5px 5px #F2F2F2;
 	margin-left: 5px;
 }
-.vieuxPort
+.photoVieuxPort
 {
 	height: 480px;
 	width: 280px;
 	border-radius: 30px 30px 0px 0px;
 	object-fit: cover;
 }
-.nomvieuxport
+.nomVieuxPort
 {
 	width: 280px;
 	height: 40px;
@@ -783,7 +639,7 @@ h2
 	flex-direction: column;
 	margin-left: 30px;
 }
-#blocfortdepomegues
+#blocFortDePomegues
 {
 	width: 280px;
 	height: 290px;
@@ -792,23 +648,22 @@ h2
 	margin-bottom: 10px;
 	border-radius: 33px;
 }
-.fortdePomegues
+.photoFortDePomegues
 {
 	height: 240px;
 	width: 280px;
 	border-radius: 30px 30px 0px 0px;
 	object-fit: cover;
 }
-.nomfortdepomegues
+.nomFortDePomegues
 {
 	width: 280px;
 	height: 100px;
 	border-radius: 0px 0px 10px 10px;
 	padding-bottom: 20px;
 	padding-left: 20px;
-	
 }
-#blociledufrioul
+#blocIleDuFrioul
 {
 	width: 280px;
 	height: 200px;
@@ -818,15 +673,14 @@ h2
 	margin-bottom: 15px;
 	border-radius: 33px;
 }
-
-.ileduFrioul
+.photoIleDuFrioul
 {
 	height: 150px;
 	width: 280px;
 	border-radius: 30px 30px 0px 0px;
 	object-fit: cover;
 }
-.nomiledufrioul
+.nomIleDuFrioul
 {
 	width: 280px;
 	height: 80px;
@@ -834,7 +688,7 @@ h2
 	padding-left: 20px;
 	padding-bottom: 20px;
 }
-#blocparcnationaldescalanques
+#blocParcNationalDesCalanques
 {
 	display: flex;
 	width: 280px;
@@ -846,14 +700,14 @@ h2
 	box-shadow: 5px 5px 5px #F2F2F2;
 	margin-left: 30px;
 }
-.parcCalanques
+.photoParcCalanques
 {
 	height: 480px;
 	width: 280px;
 	border-radius: 30px 30px 0px 0px;
 	object-fit: cover;
 }
-.nomcalanques
+.nomCalanques
 {
 	width: 280px;
 	height: 40px;
@@ -870,7 +724,7 @@ h2
 	flex-direction: column;
 	margin-left: 30px;
 }
-#blocnotredame
+#blocNotreDame
 {
 	width: 280px;
 	height: 225px;
@@ -879,23 +733,21 @@ h2
 	margin-bottom: 10px;
 	border-radius: 33px;
 }
-.notreDame
+.photoNotreDame
 {
 	height: 170px;
 	width: 280px;
 	border-radius: 30px 30px 0px 0px;
 	object-fit: cover;
 }
-.nomnotredame
+.nomNotreDame
 {
 	width: 280px;
 	height: 100px;
 	border-radius: 0px 0px 10px 10px;
 	padding-left: 20px;
-	
-	
 }
-#blocparclongchamp
+#blocParcLongchamp
 {
 	width: 280px;
 	height: 265px;
@@ -905,15 +757,14 @@ h2
 	margin-bottom: 15px;
 	border-radius: 33px;
 }
-
-.parcLongchamp					
+.photoParcLongchamp					
 {
 	height: 210px;
 	width: 280px;
 	border-radius: 30px 30px 0px 0px;
 	object-fit: cover;
 }
-.nomparclongchamp
+.nomParcLongchamp
 {
 	width: 280px;
 	height: 100px;
@@ -937,13 +788,13 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 	margin-top: 50px;
 	
 }
-.apropos
+.aPropos
 {
 	display: flex;
 	flex-direction: column;
 	
 }
-.noshebergements
+.nosHebergements
 {
 	display: flex;
 	flex-direction: column;
@@ -980,7 +831,7 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		padding: 0px;	
 	}
 
-	.sinscrire
+	.sInscrire
 	{
 		position: absolute;
 		top: 30px;
@@ -1058,7 +909,7 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 	{
 		width: auto;
 	}
-	.titrehebergements
+	.titreHebergements
 	{
 		width: auto;
 		height: auto;
@@ -1070,13 +921,13 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		margin-bottom: 20px;
 	}
 	
-	#conteneurgeneral
+	#conteneurGeneral
 	{ 
 		width: auto;
 		height: auto;
 		flex-direction: column-reverse;
 	}
-	#ensemblebloc
+	#ensembleBloc
 	{
 		display: flex;
 		width: auto;
@@ -1098,7 +949,7 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		flex-wrap: wrap;
 		padding: 0px;
 	}
-	#ensemblebloc1
+	#ensembleBloc1
 	{
 		width: auto;
 		height: auto;
@@ -1108,7 +959,7 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		margin: 0px;
 
 	}
-	.blocaubergelacannebiere
+	.blocAubergeLaCannebiere
 	{
 		width: auto;
 		height: auto;
@@ -1122,16 +973,16 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		border:3px #F2F2F2 solid;
 		box-shadow: 5px 5px 5px #F2F2F2;
 	}
-	.aubergeLaCannebiere
+	.photoLaCannebiere
 	{
 		width: 100%;
-		height: auto;
+		height: 160px;
 		border-radius: 10px 10px 0px 0px;
 		margin: 1px;
 		padding-right: 0px;
 		object-fit: cover;
 	}
-	.tarifCannebiere
+	.tarifHebergement
 	{
 		width: auto;
 		height: auto;
@@ -1143,7 +994,7 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		margin-right: 0px
 		padding-right: 0px;
 	}
-	.blochotelduport
+	.blocHotelDuPort
 	{
 		width: auto;
 		height: auto;
@@ -1155,26 +1006,15 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		border:3px #F2F2F2 solid;
 		box-shadow: 5px 5px 5px #F2F2F2;
 	}
-	.hotelduPort
+	.photoDuPort
 	{
 		width: 100%;
-		height: auto;
+		height: 160px;
 		border-radius: 10px 10px 0px 0px;
 		margin: 1px;
 		object-fit: cover;
 	}
-	.tarifPort
-	{
-		width: auto;
-		height: auto;
-		border-radius: 10px;
-		background-color: white;
-		margin-left: 0px;
-		padding-left: 10px;
-		margin-bottom: 10px;
-		margin-top: 5px;
-	}
-	.blochotellesmouettes
+	.blocHotelLesMouettes
 	{
 		width: auto;
 		height: auto;
@@ -1186,26 +1026,15 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		border:3px #F2F2F2 solid;
 		box-shadow: 5px 5px 5px #F2F2F2;
 	}
-	.hotellesMouettes
+	.photoLesMouettes
 	{
 		width: 100%;
-		height: auto;
+		height: 160px;
 		border-radius: 10px 10px 0px 0px;
 		margin: 1px;
 		object-fit: cover;
 	}
-	.tariflesmouettes
-	{
-		width: auto;
-		height: auto;
-		border-radius: 10px;
-		background-color: white;
-		margin-left: 0px;
-		padding-left: 10px;
-		margin-bottom: 10px;
-		margin-top: 5px;
-	}
-	#ensemblebloc2
+	#ensembleBloc2
 	{
 		display: flex;
 		width: auto;
@@ -1213,7 +1042,7 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		flex-direction: column;
 		margin-top: 0px;
 	}
-	.blochoteldelamer
+	.blocHotelDeLaMer
 	{
 		width: auto;
 		height: auto;
@@ -1225,7 +1054,7 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		border:3px #F2F2F2 solid;
 		box-shadow: 5px 5px 5px #F2F2F2;
 	}
-	.hoteldelaMer
+	.photoDeLaMer
 	{
 		width: 100%;
 		height: 160px;
@@ -1233,18 +1062,7 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		margin: 1px;
 		object-fit: cover;
 	}
-	.tariflamer
-	{
-		width: auto;
-		height: auto;
-		border-radius: 10px;
-		background-color: white;
-		margin-left: 0px;
-		padding-left: 10px;
-		margin-bottom: 10px;
-		margin-top: 5px;
-	}
-	.blocaubergelepanier
+	.blocAubergeLePanier
 	{
 		width: auto;
 		height: auto;
@@ -1256,37 +1074,7 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		border:3px #F2F2F2 solid;
 		box-shadow: 5px 5px 5px #F2F2F2;
 	}
-	.aubergelePanier
-	{
-		width: 100%;
-		height: auto;
-		border-radius: 10px 10px 0px 0px;
-		margin: 1px;
-		object-fit: cover;
-	}
-	.tariflepanier
-	{
-		width: auto;
-		height: auto;
-		border-radius: 10px;
-		background-color: white;
-		margin-left: 0px;
-		padding-left: 10px;
-		margin-bottom: 10px;
-		margin-top: 5px;
-	}
-	.blochotelchezamina
-	{
-		width: auto;
-		height: auto;
-		margin-left: 0px;
-		margin-right: 0px;
-		padding-left: 0px;
-		padding-top: 0px;
-		border:3px #F2F2F2 solid;
-		box-shadow: 5px 5px 5px #F2F2F2;
-	}
-	.hotelchezAmina
+	.photoLePanier
 	{
 		width: 100%;
 		height: 160px;
@@ -1294,27 +1082,36 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		margin: 1px;
 		object-fit: cover;
 	}
-	.tarifamina
+	.blocHotelChezAmina
 	{
 		width: auto;
 		height: auto;
-		border-radius: 10px;
-		background-color: white;
 		margin-left: 0px;
-		padding-left: 10px;
-		margin-bottom: 10px;
-		margin-top: 5px;
+		margin-right: 0px;
+		padding-left: 0px;
+		padding-top: 0px;
+		border:3px #F2F2F2 solid;
+		box-shadow: 5px 5px 5px #F2F2F2;
 	}
-	.afficheplus
+	.photoChezAmina
+	{
+		width: 100%;
+		height: 160px;
+		border-radius: 10px 10px 0px 0px;
+		margin: 1px;
+		object-fit: cover;
+	}
+	.affichePlus
 	{
 		width: auto;
 		padding-left:0px;
 		padding-bottom: 40px;
 		padding-top:20px;
 		margin-right: 0px;
+		margin-left: 5px;
 		padding-right: 0px;
 	}
-	#lespluspopulaires
+	#lesPlusPopulaires
 	{
 		background-color: #F2F2F2;
 		width: auto;
@@ -1325,7 +1122,7 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		padding-bottom: 40px;
 		margin-left: 0px;
 	}
-	.titrepopulaire
+	.titrePopulaire
 	{
 		display: flex;
 		width: auto;
@@ -1336,10 +1133,8 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		padding-bottom: 10px;
 		font-size: 20px;
 		justify-content: space-between;
-
 	}
-
-	#blochotellesoleildumatin
+	#blocHotelLeSoleilDuMatin
 	{
 		display: flex;
 		width: auto;
@@ -1354,17 +1149,15 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		padding-top: 5px;
 		flex-direction: row;
 	}
-	.hotelLesoleildumatin
+	.photoLeSoleilDuMatin
 	{
-		
 		height: 150px;
 		width: 150px;
 		border-radius: 10px 0px 0px 10px;
 		object-fit: cover;
 	}
-	.tariflesoleil
+	.tarifPopulaire
 	{
-
 		width: 150px;
 		height: 150px;
 		border-radius: 10px;
@@ -1373,20 +1166,15 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		margin-right: 0px;
 		padding-left: 15px;
 	}
-
-	.tariflesoleil h4
+	.tarifPopulaire h4
 	{
 		font-size: 15px;
 	}
-	.tariflesoleil p
+	.tarifPopulaire p
 	{
 		font-size: 12px;
 	}
-	.tarif
-	{
-		font-size: 12px;
-	}
-	#blocaucoeurdeleau
+	#blocAuCoeurDeLEau
 	{
 		display: flex;
 		width: auto;
@@ -1401,34 +1189,14 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		padding-top: 5px;
 		flex-direction: row;
 	}
-	.auCoeurdeleau
+	.photoAuCoeurDeLEau
 	{
 		height: 150px;
 		width: 150px;
 		border-radius: 10px 0px 0px 10px;
 		object-fit: cover;
 	}
-	.tarifaucoeur
-	{
-
-		width: 150px;
-		height: 150px;
-		border-radius: 10px;
-		background-color: white;
-		margin-left: 10px;
-		margin-right: 0px;
-		padding-left: 15px;
-	}
-
-	.tarifaucoeur h4
-	{
-		font-size: 15px;
-	}
-	.tarifaucoeur p
-	{
-		font-size: 12px;
-	}
-	#blochoteltoutbleuetblanc
+	#blocHotelToutBleuEtBlanc
 	{
 		display: flex;
 		width: auto;
@@ -1443,55 +1211,34 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		padding-top: 5px;
 		flex-direction: row;
 	}
-	.hoteltoutbleuetBlanc
+	.photoToutBleuEtBlanc
 	{
-		
 		height: 150px;
 		width: 150px;
 		border-radius: 10px 0px 0px 10px;
 		object-fit: cover;
 	}
-	.tariftoutbleu
-	{
-
-		width: 150px;
-		height: 150px;
-		border-radius: 10px;
-		background-color: white;
-		margin-left: 10px;
-		margin-right: 0px;
-		padding-left: 15px;
-	}
-	.tariftoutbleu h4
-	{
-		font-size: 15px;
-	}
-	.tariftoutbleu p
-	{
-		font-size: 12px;
-
-	}
-	#activiamarseille
+	#activiteAMarseille
 	{	
 		width: auto; /*largeur du conteneur*/
 		height:auto; /* hauteur du conteneur*/
 		border-radius: 10px;
 	}
-	.titreactivites
+	.titreActivites
 	{
 		display: flex;
 		font-size: 20px;
 		font-weight: bold;
 		padding-bottom:20px; 
 	}
-	#toutactivites
+	#toutActivites
 	{
 		display: flex;
 		width: auto;
 		height: auto;
 		flex-direction: column;
 	}
-	#blocvieuxport
+	#blocVieuxPort
 	{
 		display: flex;
 		width: auto;
@@ -1504,16 +1251,16 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		margin-right: 0px;
 
 	}
-	.vieuxPort
+	.photoVieuxPort
 	{
 		width: 100%;
-		height: auto;
+		height: 160px;
 		border-radius: 30px 30px 0px 0px;
 		object-fit: cover;
 		margin-right: 0px;
 
 	}
-	.nomvieuxport
+	.nomVieuxPort
 	{
 		width: auto;
 		height: 40px;
@@ -1532,7 +1279,7 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		margin-left: 0px;
 		margin-top: 20px;
 	}
-	#blocfortdepomegues
+	#blocFortDePomegues
 	{
 		display: flex;
 		width: auto;
@@ -1544,7 +1291,7 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		margin-left: 0px;
 		margin-bottom: 10px;
 	}
-	.fortdePomegues
+	.photoFortDePomegues
 	{
 		width: 100%;
 		height: 160px;
@@ -1552,7 +1299,7 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		object-fit: cover;
 		margin-right: 0px;
 	}
-	.nomfortdepomegues
+	.nomFortDePomegues
 	{
 		width: auto;
 		height: 40px;
@@ -1560,7 +1307,7 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		padding-left: 20px;
 		padding-bottom: 20px;
 	}
-	#blociledufrioul
+	#blocIleDuFrioul
 	{
 		display: flex;
 		width: auto;
@@ -1573,14 +1320,14 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		margin-left: 0px;
 		margin-top: 10px;
 	}
-	.ileduFrioul
+	.photoIleDuFrioul
 	{
-		height: auto;
+		height: 160px;
 		width: 100%;
 		border-radius: 30px 30px 0px 0px;
 		object-fit: cover;
 	}
-	.nomiledufrioul
+	.nomIleDuFrioul
 	{
 		width: 280px;
 		height: 40px;
@@ -1588,7 +1335,7 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		padding-left: 20px;
 		padding-bottom: 20px;
 	}
-	#blocparcnationaldescalanques
+	#blocParcNationalDesCalanques
 	{
 		display: flex;
 		width: auto;
@@ -1601,14 +1348,14 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		margin-left: 0px;
 		margin-bottom: 15px;
 	}
-	.parcCalanques
+	.photoParcCalanques
 	{
-		height: auto;
+		height: 160px;
 		width: 100%;
 		border-radius: 30px 30px 0px 0px;
 		object-fit: cover;
 	}
-	.nomcalanques
+	.nomCalanques
 	{
 		width: 280px;
 		height: 40px;
@@ -1625,7 +1372,7 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		flex-direction: column;
 		margin-left: 0px;
 	}
-	#blocnotredame
+	#blocNotreDame
 	{
 		display: flex;
 		width: auto;
@@ -1638,14 +1385,14 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		margin-left: 0px;
 		margin-bottom: 0px;
 	}
-	.notreDame
+	.photoNotreDame
 	{
-		height: auto;
+		height: 160px;
 		width: 100%;
 		border-radius: 30px 30px 0px 0px;
 		object-fit: cover;
 	}
-	.nomnotredame
+	.nomNotreDame
 	{
 		width: 280px;
 		height: 40px;
@@ -1653,7 +1400,7 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		padding-left: 20px;
 		padding-bottom: 20px;
 	}
-	#blocparclongchamp
+	#blocParcLongchamp
 	{
 		display: flex;
 		width: auto;
@@ -1666,14 +1413,14 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		margin-left: 0px;
 		margin-top: 15px;
 	}
-	.parcLongchamp
+	.photoParcLongchamp
 	{
-		height: auto;
+		height: 160px;
 		width: 100%;
 		border-radius: 30px 30px 0px 0px;
 		object-fit: cover;
 	}
-	.nomparclongchamp
+	.nomParcLongchamp
 	{
 		width: 280px;
 		height: 40px;
@@ -1693,13 +1440,13 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		margin-top: 20px;
 		
 	}
-	.apropos
+	.aPropos
 	{
 		display: flex;
 		flex-direction: column;
 		
 	}
-	.noshebergements
+	.nosHebergements
 	{
 		display: flex;
 		flex-direction: column;
@@ -1738,7 +1485,7 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		position: relative;
 		bottom: 20px;
 	}
-	.sinscrire
+	.sInscrire
 	{
 		width: auto;	
 		margin: auto;
@@ -1763,30 +1510,25 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		font-weight: bold;
 	}
 	#menu a:hover /* barre bleu au survol*/
-{
+	{
 	border-bottom: 2px solid blue;
 	padding-top: 17px;
 	color: blue;
 	border-top: none;
 	margin-left: 0px;
 	margin-right: 0px;
-	
-}
-	
+	}
 	#logo
 	{
 		width: 100px;
 		height: 50px;
-
 	}
 	section
 	{
 		margin-left: 0px;
-
 	}
 	#filtres
 	{
-
 		margin-top: 20px;
 		margin-bottom: 50px;
 		flex-wrap: wrap;
@@ -1794,26 +1536,21 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		width: auto;
 		padding-right: 10px;
 		padding-top: 10px;
-
 	}
 	.filtre
 	{
 		height: 20px;
-	
 	}
-
 	.info
 	{
 		width: auto;
 	}	
-	#conteneurgeneral
+	#conteneurGeneral
 	{
-		
 		width: auto;
 		height: auto;
 		flex-direction: column-reverse;
 	}
-	
 	#hebergement
 	{
 		background-color: white;
@@ -1823,16 +1560,73 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		flex-wrap: wrap;
 		padding: 0px;
 	}
-	#ensemblebloc1
+	#ensembleBloc1
 	{
 		width: auto;
 		flex-direction: column;
 		margin-bottom: 0px;
-		
 	}
-	.blocaubergelacannebiere
+	.blocAubergeLaCannebiere
+	{
+		display: flex;
+		width: auto;
+		height: auto;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-bottom: 10px;
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-top: 0px;
+		border:3px #F2F2F2 solid;
+		box-shadow: 5px 5px 5px #F2F2F2;
+		flex-direction: row;
+	}
+	.photoLaCannebiere
 	{
 		width: 350px;
+		height: 145px;
+		border-radius: 10px 0px 0px 10px;
+		margin: 1px;
+		object-fit: cover;
+	}
+	.tarifHebergement
+	{
+		width: auto;
+		height: auto;
+		border-radius: 10px;
+		background-color: white;
+		margin-left: 0px;
+		margin-right: 0px;
+		padding-left: 10px;
+		margin-bottom: 10px;
+		margin-top: 5px;
+	}
+	.blocHotelDuPort
+	{
+		display: flex;
+		width: auto;
+		height: auto;
+		margin-left: auto;
+		margin-right: 0px;
+		margin-bottom: 10px;
+		padding-left: 0px;
+		padding-top: 0px;
+		border:3px #F2F2F2 solid;
+		box-shadow: 5px 5px 5px #F2F2F2;
+		flex-direction: row-reverse;
+	}
+	.photoDuPort
+	{
+		width: 350px;
+		height: 145px;
+		border-radius: 0px 10px 10px 0px;
+		margin: 1px;
+		object-fit: cover;
+	}
+	.blocHotelLesMouettes
+	{
+		display: flex;
+		width: auto;
 		height: auto;
 		margin-left: 0px;
 		margin-right: 0px;
@@ -1841,97 +1635,25 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		padding-top: 0px;
 		border:3px #F2F2F2 solid;
 		box-shadow: 5px 5px 5px #F2F2F2;
+		flex-direction: row;
 	}
-	.aubergeLaCannebiere
+	.photoLesMouettes
 	{
 		width: 350px;
 		height: 145px;
-		border-radius: 10px 10px 0px 0px;
+		border-radius: 10px 0px 0px 10px;
 		margin: 1px;
 		object-fit: cover;
 	}
-	.tarifCannebiere
-	{
-		width: 345px;
-		height: 80px;
-		border-radius: 10px;
-		background-color: white;
-		margin-left: 0px;
-		padding-left: 10px;
-		margin-bottom: 10px;
-		margin-top: 5px;
-	}
-	.blochotelduport
-	{
-		width: 350px;
-		height: auto;
-		margin-left: 0px;
-		margin-right: 0px;
-		margin-bottom: 10px;
-		padding-left: 0px;
-		padding-top: 0px;
-		border:3px #F2F2F2 solid;
-		box-shadow: 5px 5px 5px #F2F2F2;
-	}
-	.hotelduPort
-	{
-		width: 350px;
-		height: 145px;
-		border-radius: 10px 10px 0px 0px;
-		margin: 1px;
-		object-fit: cover;
-	}
-	.tarifPort
-	{
-		width: 345px;
-		height: 80px;
-		border-radius: 10px;
-		background-color: white;
-		margin-left: 0px;
-		padding-left: 10px;
-		margin-bottom: 10px;
-		margin-top: 5px;
-	}
-	.blochotellesmouettes
-	{
-		width: 350px;
-		height: auto;
-		margin-left: 0px;
-		margin-right: 0px;
-		margin-bottom: 10px;
-		padding-left: 0px;
-		padding-top: 0px;
-		border:3px #F2F2F2 solid;
-		box-shadow: 5px 5px 5px #F2F2F2;
-	}
-	.hotellesMouettes
-	{
-		width: 350px;
-		height: 145px;
-		border-radius: 10px 10px 0px 0px;
-		margin: 1px;
-		object-fit: cover;
-	}
-	.tariflesmouettes
-	{
-		width: 345px;
-		height: 80px;
-		border-radius: 10px;
-		background-color: white;
-		margin-left: 0px;
-		padding-left: 10px;
-		margin-bottom: 10px;
-		margin-top: 5px;
-	}
-	#ensemblebloc2
+	#ensembleBloc2
 	{
 		width: auto;
 		flex-direction: column;
-		
 	}
-	.blochoteldelamer
+	.blocHotelDeLaMer
 	{
-		width: 350px;
+		display: flex;
+		width: auto;
 		height: auto;
 		margin-left: 0px;
 		margin-right: 0px;
@@ -1940,29 +1662,20 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		padding-top: 0px;
 		border:3px #F2F2F2 solid;
 		box-shadow: 5px 5px 5px #F2F2F2;
+		flex-direction: row-reverse;
 	}
-	.hoteldelaMer
+	.photoDeLaMer
 	{
 		width: 350px;
 		height: 145px;
-		border-radius: 10px 10px 0px 0px;
+		border-radius: 0px 10px 10px 0px;
 		margin: 1px;
 		object-fit: cover;
 	}
-	.tariflamer
+	.blocAubergeLePanier
 	{
-		width: 345px;
-		height: 80px;
-		border-radius: 10px;
-		background-color: white;
-		margin-left: 0px;
-		padding-left: 10px;
-		margin-bottom: 10px;
-		margin-top: 5px;
-	}
-	.blocaubergelepanier
-	{
-		width: 350px;
+		display: flex;
+		width: auto;
 		height: auto;
 		margin-left: 0px;
 		margin-right: 0px;
@@ -1971,29 +1684,20 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		padding-top: 0px;
 		border:3px #F2F2F2 solid;
 		box-shadow: 5px 5px 5px #F2F2F2;
+		flex-direction: row;
 	}
-	.aubergelePanier
+	.photoLePanier
 	{
 		width: 350px;
 		height: 145px;
-		border-radius: 10px 10px 0px 0px;
+		border-radius: 10px 0px 0px 10px;
 		margin: 1px;
 		object-fit: cover;
 	}
-	.tariflepanier
+	.blocHotelChezAmina
 	{
-		width: 345px;
-		height: 80px;
-		border-radius: 10px;
-		background-color: white;
-		margin-left: 0px;
-		padding-left: 10px;
-		margin-bottom: 10px;
-		margin-top: 5px;
-	}
-	.blochotelchezamina
-	{
-		width: 350px;
+		display: flex;
+		width: auto;
 		height: auto;
 		margin-left: 0px;
 		margin-right: 0px;
@@ -2001,33 +1705,24 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		padding-top: 0px;
 		border:3px #F2F2F2 solid;
 		box-shadow: 5px 5px 5px #F2F2F2;
+		flex-direction: row-reverse;
 	}
-	.hotelchezAmina
+	.photoChezAmina
 	{
 		width: 350px;
 		height: 145px;
-		border-radius: 10px 10px 0px 0px;
+		border-radius: 0px 10px 10px 0px;
 		margin: 1px;
 		object-fit: cover;
 	}
-	.tarifamina
+	.affichePlus
 	{
-		width: 345px;
-		height: 80px;
-		border-radius: 10px;
-		background-color: white;
-		margin-left: 0px;
-		padding-left: 10px;
-		margin-bottom: 10px;
-		margin-top: 5px;
-	}
-	.afficheplus
-	{
+		margin-left: 10px;
 		padding-left:0px;
 		padding-bottom: 40px;
 		padding-top:20px;
 	}
-	#lespluspopulaires
+	#lesPlusPopulaires
 	{
 		background-color: #F2F2F2;
 		width: auto;
@@ -2038,7 +1733,7 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		padding-bottom: 40px;
 		margin-left: 0px;
 	}
-	.titrepopulaire
+	.titrePopulaire
 	{
 		display: flex;
 		width: auto;
@@ -2049,10 +1744,8 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		padding-bottom: 10px;
 		font-size: 20px;
 		justify-content: space-between;
-
 	}
-
-	#blochotellesoleildumatin
+	#blocHotelLeSoleilDuMatin
 	{
 		display: flex;
 		width: auto;
@@ -2067,18 +1760,15 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		padding-top: 5px;
 		flex-direction: row;
 	}
-	
-	.hotelLesoleildumatin
-	{
-		
+	.photoLeSoleilDuMatin
+	{	
 		height: 150px;
 		width: 250px;
 		border-radius: 10px 0px 0px 10px;
 		object-fit: cover;
 	}
-	.tariflesoleil
+	.tarifPopulaire
 	{
-
 		width: auto;
 		min-width: 150px;
 		height: 150px;
@@ -2087,20 +1777,15 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		margin-right: 0px;
 		padding-left: 15px;
 	}
-
-	.tariflesoleil h4
+	.tarifPopulaire h4
 	{
 		font-size: 15px;
 	}
-	.tariflesoleil p
+	.tarifPopulaire p
 	{
 		font-size: 12px;
 	}
-	.tarif
-	{
-		font-size: 12px;
-	}
-	#blocaucoeurdeleau
+	#blocAuCoeurDeLEau
 	{
 		display: flex;
 		width: auto;
@@ -2115,34 +1800,14 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		padding-top: 5px;
 		flex-direction: row-reverse;
 	}
-	.auCoeurdeleau
+	.photoAuCoeurDeLEau
 	{
 		height: 150px;
 		width: 250px;
 		border-radius: 0px 10px 10px 0px;
 		object-fit: cover;
 	}
-	.tarifaucoeur
-	{
-
-		width: auto;
-		min-width: 150px;
-		height: 150px;
-		border-radius: 10px;
-		margin-left: 10px;
-		margin-right: 10px;
-		padding-left: 15px;
-	}
-
-	.tarifaucoeur h4
-	{
-		font-size: 15px;
-	}
-	.tarifaucoeur p
-	{
-		font-size: 12px;
-	}
-	#blochoteltoutbleuetblanc
+	#blocHotelToutBleuEtBlanc
 	{
 		display: flex;
 		width: auto;
@@ -2157,73 +1822,54 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		padding-top: 5px;
 		flex-direction: row;
 	}
-	.hoteltoutbleuetBlanc
+	.photoToutBleuEtBlanc
 	{
 		height: 150px;
 		width: 250px;
 		border-radius: 10px 0px 0px 10px;
 		object-fit: cover;
 	}
-	.tariftoutbleu
-	{
-
-		width: auto;
-		min-width: 150px;
-		height: auto;
-		border-radius: 10px;
-		margin-left: 10px;
-		margin-right: 0px;
-		padding-left: 15px;
-	}
-	.tariftoutbleu h4
-	{
-		font-size: 15px;
-	}
-	.tariftoutbleu p
-	{
-		font-size: 12px;
-
-	}
-	#activiamarseille
+	#activiteAMarseille
 	{	
 		width: auto; /*largeur du conteneur*/
 		height:1402px; /* hauteur du conteneur*/
 		border-radius: 10px;
 	}
-	.titreactivites
+	.titreActivites
 	{
 		display: flex;
 		font-size: 20px;
 		font-weight: bold;
 		padding-bottom:20px; 
 	}
-	#toutactivites
+	#toutActivites
 	{
 		display: flex;
 		width: auto;
 		height: auto;
 		flex-direction: column;
 	}
-	#blocvieuxport
+	#blocVieuxPort
 	{
 		display: flex;
-		width: auto;
+		width: 100%;
 		height: 200px;
 		background-color: white;
+		margin-right: 0px;
 		border-radius: 33px;	
 		flex-direction: column;
 		border:3px #F2F2F2 solid;
 		box-shadow: 5px 5px 5px #F2F2F2;
 		margin-left: 0px;
 	}
-	.vieuxPort
+	.photoVieuxPort
 	{
 		height: 150px;
-		width: 355px;
+		width: 100%;
 		border-radius: 30px 30px 0px 0px;
 		object-fit: cover;
 	}
-	.nomvieuxport
+	.nomVieuxPort
 	{
 		width: 280px;
 		height: 40px;
@@ -2241,7 +1887,7 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		margin-left: 0px;
 		margin-top: 20px;
 	}
-	#blocfortdepomegues
+	#blocFortDePomegues
 	{
 		display: flex;
 		width: auto;
@@ -2254,14 +1900,14 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		margin-left: 0px;
 		margin-bottom: 10px;
 	}
-	.fortdePomegues
+	.photoFortDePomegues
 	{
 		height: 150px;
-		width: 355px;
+		width: 100%;
 		border-radius: 30px 30px 0px 0px;
 		object-fit: cover;
 	}
-	.nomfortdepomegues
+	.nomFortDePomegues
 	{
 		width: 280px;
 		height: 40px;
@@ -2269,7 +1915,7 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		padding-left: 20px;
 		padding-bottom: 20px;
 	}
-	#blociledufrioul
+	#blocIleDuFrioul
 	{
 		display: flex;
 		width: auto;
@@ -2282,14 +1928,14 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		margin-left: 0px;
 		margin-top: 10px;
 	}
-	.ileduFrioul
+	.photoIleDuFrioul
 	{
 		height: 150px;
-		width: 355px;
+		width: 100%;
 		border-radius: 30px 30px 0px 0px;
 		object-fit: cover;
 	}
-	.nomiledufrioul
+	.nomIleDuFrioul
 	{
 		width: 280px;
 		height: 40px;
@@ -2297,7 +1943,7 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		padding-left: 20px;
 		padding-bottom: 20px;
 	}
-	#blocparcnationaldescalanques
+	#blocParcNationalDesCalanques
 	{
 		display: flex;
 		width: auto;
@@ -2310,14 +1956,14 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		margin-left: 0px;
 		margin-bottom: 15px;
 	}
-	.parcCalanques
+	.photoParcCalanques
 	{
 		height: 150px;
-		width: 355px;
+		width: 100%;
 		border-radius: 30px 30px 0px 0px;
 		object-fit: cover;
 	}
-	.nomcalanques
+	.nomCalanques
 	{
 		width: 280px;
 		height: 40px;
@@ -2334,7 +1980,7 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		flex-direction: column;
 		margin-left: 0px;
 	}
-	#blocnotredame
+	#blocNotreDame
 	{
 		display: flex;
 		width: auto;
@@ -2347,14 +1993,14 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		margin-left: 0px;
 		margin-bottom: 0px;
 	}
-	.notreDame
+	.photoNotreDame
 	{
 		height: 150px;
-		width: 355px;
+		width: 100%;
 		border-radius: 30px 30px 0px 0px;
 		object-fit: cover;
 	}
-	.nomnotredame
+	.nomNotreDame
 	{
 		width: 280px;
 		height: 40px;
@@ -2362,7 +2008,7 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		padding-left: 20px;
 		padding-bottom: 20px;
 	}
-	#blocparclongchamp
+	#blocParcLongchamp
 	{
 		display: flex;
 		width: auto;
@@ -2375,14 +2021,14 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		margin-left: 0px;
 		margin-top: 15px;
 	}
-	.parcLongchamp
+	.photoParcLongchamp
 	{
 		height: 150px;
-		width: 355px;
+		width: 100%;
 		border-radius: 30px 30px 0px 0px;
 		object-fit: cover;
 	}
-	.nomparclongchamp
+	.nomParcLongchamp
 	{
 		width: 280px;
 		height: 40px;
@@ -2402,13 +2048,13 @@ section a /*pour retirer la souligne et laisser en noir les parties cliquable */
 		margin-top: 20px;
 		
 	}
-	.apropos
+	.aPropos
 	{
 		display: flex;
 		flex-direction: column;
 		
 	}
-	.noshebergements
+	.nosHebergements
 	{
 		display: flex;
 		flex-direction: column;
